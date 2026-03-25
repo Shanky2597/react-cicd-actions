@@ -2,6 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { describe, test, expect } from 'vitest'
 import App from './App';
+// there is a comment
 
 test('renders Github Actions heading', () => {
   render(<App />);
